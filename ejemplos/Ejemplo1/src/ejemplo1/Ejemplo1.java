@@ -1,4 +1,4 @@
-/*
+  /*
  * Realizar un programa en java que permita determinar
  * si un estudiante ha pasado el ciclo
  * se ingresa el promedio del estudiante
@@ -22,17 +22,17 @@ public class Ejemplo1 {
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
+        } // Finalizacion del if de la linea 22
 
         if (promedio > 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
+        } // Finalizacion del if de la linea 27
 
         if (promedio < 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
-    }
+        } // Finalizacion del if de la linea 32
+    } // Finalizacion del metodo main
 
 }
